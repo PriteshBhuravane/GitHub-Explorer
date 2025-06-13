@@ -1,12 +1,73 @@
-# React + Vite
+# GitHub Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application to discover trending open source projects, analyze repository statistics, and manage your collection of bookmarked repositories.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Explore trending GitHub repositories
+- Filter and search repositories
+- View repository statistics and charts
+- Bookmark your favorite repositories
+- Responsive UI with dark mode support
+- Built with React, Vite, Tailwind CSS, and Radix UI
 
-## Expanding the ESLint configuration
+## Project Structure
+hadcn/
+├── public/
+├── src/
+│ ├── assets/
+│ ├── components/
+│ │ ├── ui/
+│ │ ├── BookmarkedReposProps.jsx
+│ │ ├── FilterPanel.jsx
+│ │ ├── RepositoryCard.jsx
+│ │ └── StatsChart.jsx
+│ ├── hooks/
+│ ├── lib/
+│ ├── pages/
+│ │ ├── Index.jsx
+│ │ └── NotFound.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ ├── index.css
+│ └── main.jsx
+├── package.json
+├── vite.config.js
+└── jsconfig.json
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or newer recommended)
+- npm
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone <your-repo-url>
+   cd shadcn
+
+2. Install dependencies:
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+
+## Development
+    Start the development server:
+    npm run dev
+    Open http://localhost:5173 in your browser.
+
+    npm run preview
+## Tech Stack
+React
+Vite
+Tailwind CSS
+Radix UI
+Lucide Icons
+TanStack React Query
+Recharts
