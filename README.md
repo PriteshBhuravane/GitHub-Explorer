@@ -59,8 +59,8 @@ hadcn/
     pnpm install
 
 ## Development
-Start the development server:
-    ```sh
+    Start the development server:
+     ```sh
     npm run dev
 Open http://localhost:5173 in your browser.
 
