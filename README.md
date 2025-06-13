@@ -51,6 +51,7 @@ hadcn/
    cd shadcn
 
 2. Install dependencies:
+     ```sh
     npm install
     # or
     yarn install
@@ -59,10 +60,11 @@ hadcn/
 
 ## Development
     Start the development server:
+     ```sh
     npm run dev
-    Open http://localhost:5173 in your browser.
+Open http://localhost:5173 in your browser.
 
-    npm run preview
+
 ## Tech Stack
 React
 Vite
